@@ -299,12 +299,14 @@ width: 20px;
 }
 @media(max-width:900px){
     footer{
-        height: 23rem
+        min-height: 23rem;
+        overflow: hidden;
     }
 }
 @media(max-width:752px){
     footer{
-        height: 45rem;
+        min-height: 45rem;
+        overflow: hidden;
     }
     .footer-content{
         clear:both;
@@ -318,4 +320,21 @@ width: 20px;
     .a{
         margin-left: 0;
     }
+}
+@media(max-width:670px){
+    footer{
+        min-height: 45rem;
+        overflow: hidden;
+    }
+    #otherstuff{
+        height: 7.5rem;
+    }
+
+    .ustawka{
+        width: 100%;
+        text-align: center;
+     }
+}
+@media(max-width:633px){
+
 }
