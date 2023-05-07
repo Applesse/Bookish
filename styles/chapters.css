@@ -1,0 +1,138 @@
+.container{
+    display: flex;
+    position: relative;
+    padding: 1.5rem 1rem 1.5rem 1rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    min-height: 1000px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.chapter-specifics{
+    width: 100%;
+    height: 220px;
+    background-color: rgb(40, 55, 71);
+    position: relative;
+    color: white;
+}
+.fiction-image{
+    background-image: url('../images/bubble-tree.png');
+    background-position: center;
+    background-size: cover;
+    overflow: auto;
+    border: 2px solid white;
+    opacity: 1;
+    width:130px;
+    height: 180px;
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.title-fiction{
+    position: absolute;
+    left: 20%;
+    top:20%;
+    font-size: 2.2rem;
+
+}
+.title-chapter{
+    position: absolute;
+    left: 20%;
+    top:50%;
+    font-size: 1.8rem;
+}
+.adjust-chapter-btn{
+    position: absolute;
+    right: 10%;
+    top: 70%;
+    background-color: rgb(82, 174, 189);
+    color: white;
+    border: none;
+    font-size: 1.1rem;
+    width: 12rem;
+    height: 1.8rem;
+    border-radius: 20px;
+    
+}
+.adjust-chapter-btn:hover{
+cursor: pointer;
+filter: brightness(110%)
+}
+.adjusting-text-chapter{
+    position: fixed;
+    height: 300px;
+    width: 40%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 20;
+}
+.select-font-size{
+    position: absolute;
+    left: 25%;
+    top:40%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2rem;
+}
+.select-space-between{
+    font-size: 1.2rem;
+    position: absolute;
+    left: 75%;
+    top:40%;
+    transform: translate(-50%, -50%);
+}
+.hidden{
+display: none;
+}
+.close-modulos{
+    font-size: 1.5rem;
+    color: darkgrey;
+    background: none;
+    border: none;
+    position: absolute;
+    right: 2%;
+    top: 2%;
+}
+.close-modulos:hover{
+    cursor: pointer;
+}
+.background-for-adj {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top:0;
+    background-color: rgba(0,0,0,0.6);
+    z-index:15;
+}
+.d{
+    color: white;
+    margin-right: 0.5rem;
+}
+:root{
+    /*fonts size */
+    --size: 21px;
+
+/* margin between paragraphs*/
+    --space: 1rem;
+}
+.chapter-content{
+    text-align: left;
+    font-size: var(--size);
+}
+.chapter-content p{
+    margin-bottom: var(--space);
+}
+.move-up{
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    font-size: 2rem;
+    color: grey;
+}
+.move-up:hover{
+    cursor: pointer;
+}

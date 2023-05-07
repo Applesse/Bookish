@@ -1,0 +1,134 @@
+body
+{
+	margin: 0 !important;
+	height: 100vh;
+	width: 100vw;
+	cursor: default;
+}
+
+#container
+{
+	width: 100%;
+	height: 100%;
+}
+
+#lewy
+{
+	width: 75%;
+	height: 100%;	
+	background-image: url("../images/background_login.jpg");
+	background-position: center; /*centruje obraz */
+	background-size: cover;  /*wypełnia diva zdjęciem chyba nawet go skaluje odpowiednio do diva */
+	background-color: #E7E7EA;
+	float: left;
+}
+
+#prawy
+{
+	
+	width: 25%;
+	height: 100%;
+	float: left;
+	background-color: #E7E7EA;
+	text-align: center;
+	display: block;
+
+}
+#formularz1
+{
+	margin-left: auto;
+	display: inline-block;
+	margin-right: auto;
+	text-align: left;
+	color: grey;
+	font-size: 20px;
+	margin-bottom: 60px;
+}
+#formularz1 input[type=submit]
+{
+	width: 350px;
+	border: none;
+	height: 32px;
+	margin-top: 12px;
+	
+
+}
+#formularz2
+{
+	margin-left: auto;
+	display: inline-block;
+	margin-right: auto;
+	text-align: left;
+	margin-top: 60px;
+	color: grey;
+	font-size: 20px;
+}
+#formularz2 input[type=text], input[type=password] /*wybieranie wybranych imputów do edycji*/  /*input:not([type=checkbox])- wybieranie dla wszystkich elementów oprócz wybranego*/
+{
+	width: 342px;
+	border: none;
+	height: 32px;
+	font-size: 19px;
+	letter-spacing:1px;
+	margin-top:3px;
+	outline: none;
+	padding-left: 8px;
+	
+}
+#formularz2 input[type=checkbox]
+{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	-ms-transform: scale(1.3); /* IE */
+	-moz-transform: scale(1.3); /* FF */
+	-webkit-transform: scale(1.3); /* Safari and Chrome */
+	-o-transform: scale(1.3); /* Opera */
+	transform: scale(1.3);
+
+	
+}
+#formularz2 input[type=checkbox]:hover{
+	cursor: pointer;
+}
+#formularz2 input[type=checkbox]:checked{
+	accent-color: grey;
+
+}
+
+.slij
+{
+	width: 350px;
+	border: none;
+	height: 32px;
+	color: white;
+	-webkit-box-shadow: 4px 4px 7px 0px rgba(66, 68, 90, 1);
+	-moz-box-shadow: 4px 4px 7px 0px rgba(66, 68, 90, 1);
+	box-shadow: 4px 4px 7px 0px rgba(66, 68, 90, 1);
+}
+.slij:hover
+{
+	cursor: pointer;
+	filter: brightness(110%);  /*przyciemnia/wyjaśnia wybrany element */
+}
+.pod
+{	
+	display: block;
+	text-align: left;
+	padding-left:35px;
+}
+
+.pod a
+{
+	text-decoration: none;
+	color: #2A6B76;
+}
+.pod a:hover
+{
+	border-bottom: solid 1px #2A6B76;
+}
+hr {
+	width: 80%;
+	border: 0;
+	height: 1px;
+	background: #2A6B76;
+}

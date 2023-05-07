@@ -1,0 +1,36 @@
+main{
+
+    font-family: 'Roboto', sans-serif;
+
+}
+.content-tos-cookies-main{
+    margin-left: auto;
+    margin-right: auto;
+    width: 96%;
+    text-align: left;
+    height: 100%;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+.content-tos-cookies-main h1{
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+.content-tos-cookies-main h2{
+    background-color: rgb(168, 236, 236);
+    border-left: solid 1px rgb(97, 236, 236);
+}
+.content-tos-cookies-main p{
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+.content-tos-cookies-main ul{
+    margin-left: 6rem;
+
+}
+.content-tos-cookies-main li > a{
+    color: black;
+}

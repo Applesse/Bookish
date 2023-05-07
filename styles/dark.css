@@ -1,0 +1,62 @@
+/*main style */
+#top{
+    background-color: black;
+
+}
+.icon-bell{
+    color: white;
+} 
+ .loginBtnMain{
+    background-color: black;
+    color:white;
+} 
+ main{
+    background-color: #2b2a2a;
+} 
+ .novels{
+    background-color: rgb(24, 24, 24);
+}
+.recentReviews{
+    background-color: #2b2a2a;
+}
+ .title-first-front{
+    color: white;
+}
+/*read sites*/
+.container{
+    background-color: black;
+}
+.read-pages-content{
+    background-color: black;
+}
+.sidebar-tiles{
+    background-color: rgb(71, 72, 75);
+}
+/*knowledge base*/ 
+.sidebar-knowledge-base{
+    background-color: black;}
+.content-knowledge-base{
+    background-color: black;
+}
+.content-tos-cookies-main{
+    background-color: black;
+}
+.content-tos-cookies-main h2{
+    color: black;
+}
+/*fiction*/
+.blank-stuff-fiction{
+    background-color: black;
+}
+.synopsis-fiction{
+    background-color: black;
+}
+.container-author-fictions{
+    background-color: black;
+}
+.chapters-list{    background-color: black;}
+.content-tos-cookies-main li > a{
+    color: white;
+}
+main{color: white;}
+.adjusting-text-chapter{    background-color: rgb(71, 72, 75);}

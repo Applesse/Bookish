@@ -1,0 +1,33 @@
+.list-item-read{
+    height: 150px;
+}
+.list-content-other-information-div{
+    position: relative;
+    font-size: 0.9rem;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    color: #517892;
+}
+.list-content-title{
+    font-size: 1.5rem;
+}
+.views-fiction{
+    position: absolute;
+    top: 60px;
+    left: 15%;
+}
+.chapters-fiction{
+    position: absolute;
+    top: 83px;
+    left: 15%;
+}
+.rating-fiction{
+    position: absolute;
+    top: 60px;
+    left: 45%;
+}
+.last-update{
+    position: absolute;
+    top: 83px;
+    left: 45%;
+}
