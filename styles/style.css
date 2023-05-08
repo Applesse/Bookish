@@ -23,10 +23,7 @@ body{
     height: 5rem;
 }
 .logoTopLeft{
-    position: relative;
-    top: 5%;
-    left: 23%;
-    transform: translate(-50%, 0);
+   margin-left: 5%;
 }
 .icon-bell{
  
@@ -104,6 +101,42 @@ background-color: rgba(255, 255, 255, 0.1);
 #nav-positioning-for-menu{
     margin-left: 15%;
 }
+
+.dropdown-menu-for-smaller-devices{
+position: absolute;
+right: 6%;
+top: 2.5rem;
+transform: translate(0, -50%);
+color:rgb(42, 107, 118);
+font-size: 1.7rem;
+width: 3.5rem;
+height: 3.5rem;
+text-align: center;
+line-height: 3.5rem;
+display: none;
+}
+.dropdown-menu-for-smaller-devices:hover{
+    background-color: #edeef2;
+    cursor: pointer;
+}
+.submenu-for-smaller-devices{
+    background-color: #edeef2;
+    transition: 5s ease-in-out;
+}
+.submenu-for-smaller-devices ul{
+    border-top:solid 1px lightgrey;
+}
+.submenu-for-smaller-devices li{
+    height: 2rem;
+    line-height: 2rem;
+    padding-left: 1rem;
+    color: #333333;
+    border-bottom:solid 1px lightgrey;
+}
+.submenu-for-smaller-devices li:hover{
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
 .search-machine{
     color: #edeef2;
     margin-left: 20%;
@@ -240,7 +273,10 @@ width: 20px;
     text-transform: uppercase;
     padding-left: 5%;
 }
-
+.hidden{
+    display: none;
+    
+}
 
 
 @media (max-width: 1400px) {
@@ -304,6 +340,9 @@ width: 20px;
     }
 }
 @media(max-width:752px){
+    .promotionBaner{
+        height: 15rem;
+    }
     footer{
         min-height: 45rem;
         overflow: hidden;
@@ -336,5 +375,13 @@ width: 20px;
      }
 }
 @media(max-width:633px){
-
+    .dropdown-menu-for-smaller-devices{
+        display: block;
+    }
+    nav{
+    display: none;
+}
+.rightTopBar{
+    display: none;
+}
 }

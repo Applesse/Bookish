@@ -21,3 +21,16 @@ themeSwitch.addEventListener('change', (e) => {
     localStorage.setItem("mode", "light");
   }
 })
+
+const menuButton = document.querySelector(".dropdown-menu-for-smaller-devices");
+const subMenu = document.querySelector(".submenu-for-smaller-devices");
+
+menuButton.addEventListener("click", ()=>{
+  if(subMenu.classList.contains('hidden')){
+    subMenu.classList.remove('hidden')
+  }
+  else{
+    subMenu.classList.add('hidden');
+  }
+  
+})
